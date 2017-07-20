@@ -16,7 +16,7 @@
 ### Requirements
 
 - Ruby 2.0+
-- Latest ChefDK
+- Bundler (`gem install bundler`)
 - [Vagrant](https://vagrantup.com)
 - [VirtualBox](https://virtualbox.org)
 
@@ -24,15 +24,15 @@
 
 1. Clone the git repository from GitHub:
 
-        git clone git@github.com:stevendanna/logrotate.git
+        $ git clone git@github.com:stevendanna/logrotate.git
 
-2. Ensure you have ChefDK installed:
+2. Install the dependencies using bundler:
 
-        chef --version
+        $ bundle install
 
 3. Create a branch for your changes:
 
-        git checkout -b my_bug_fix
+        $ git checkout -b my_bug_fix
 
 4. Make any changes
 
