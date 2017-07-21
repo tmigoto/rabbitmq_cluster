@@ -1,5 +1,5 @@
 #
-# Copyright:: 2015-2017, Chef Software, Inc.
+# Copyright:: 2015-2016, Chef Software, Inc.
 # License:: Apache License, Version 2.0
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,6 +39,7 @@ begin
       end
     end
   end
+
 rescue LoadError
   STDERR.puts "\n*** TomlRb not available. Skipping the Maintainers Rake task\n\n"
 end
